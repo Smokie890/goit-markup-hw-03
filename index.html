@@ -16,34 +16,30 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <div class="container">
-        <div class="header-container">
-          <nav class="navigation">
-            <a href="#" lang="en" class="logo">Web<span class="logo-studio">Studio</span></a>
-            <ul class="header-menu">
-              <li class="nav-first">
-                <a href="./index.html" class="nav-button current">Студія</a>
-              </li>
-              <li class="nav-first"><a href="./portfolio.html" class="nav-button">Портфоліо</a></li>
-              <li class="nav-first"><a href="#" class="nav-button">Контакти</a></li>
-            </ul>
-          </nav>
-          <ul class="header-contact">
+    <header class="header">
+      <div class="container header-container">
+        <nav class="navigation">
+          <a href="#" lang="en" class="logo">Web<span class="logo-studio">Studio</span></a>
+          <ul class="header-menu">
             <li class="nav-first">
-              <a href="mailto:info@devstudio.com" lang="en" class="nav-contact"
-                >info@devstudio.com</a
-              >
+              <a href="./index.html" class="nav-button current">Студія</a>
             </li>
-            <li class="nav-first">
-              <a href="tel:+380961111111" class="nav-contact">+38 096 111 11 11</a>
-            </li>
+            <li class="nav-first"><a href="./portfolio.html" class="nav-button">Портфоліо</a></li>
+            <li class="nav-first"><a href="#" class="nav-button">Контакти</a></li>
           </ul>
-        </div>
+        </nav>
+        <ul class="header-contact">
+          <li class="nav-first">
+            <a href="mailto:info@devstudio.com" lang="en" class="nav-contact">info@devstudio.com</a>
+          </li>
+          <li class="nav-first">
+            <a href="tel:+380961111111" class="nav-contact">+38 096 111 11 11</a>
+          </li>
+        </ul>
       </div>
     </header>
     <main>
-      <section class="cap section">
+      <section class="section cap">
         <div class="container">
           <h1 class="cap-title">Ефективні рішення для вашого бізнесу</h1>
           <button type="button" class="button">Замовити послугу</button>
@@ -56,31 +52,25 @@
             <li class="list-number">
               <h3 class="list-title">Увага до деталей</h3>
               <p class="list-item">
-                Ідейні міркування, і навіть початок
-                повсякденної роботи з формування
-                позиції.
+                Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
               </p>
             </li>
             <li class="list-number">
               <h3 class="list-title">Пунктуальність</h3>
               <p class="list-item">
-                Завдання організації, особливо рамки
-                і місце навчання кадрів тягне у себе.
+                Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
               </p>
             </li>
             <li class="list-number">
               <h3 class="list-title">Планування</h3>
               <p class="list-item">
-                Так само консультація з широким
-                активом значною мірою зумовлює.
+                Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
             <li class="list-number">
               <h3 class="list-title">Сучасні технології</h3>
               <p class="list-item">
-                Значимість цих проблем настільки
-                очевидна, що реалізація планових
-                завдань.
+                Значимість цих проблем настільки очевидна, що реалізація планових завдань.
               </p>
             </li>
           </ul>
@@ -114,7 +104,7 @@
           </ul>
         </div>
       </section>
-      <section class="team section">
+      <section class="section team">
         <div class="container">
           <h2 class="hero">Наша команда</h2>
           <ul class="list-team">
@@ -125,8 +115,10 @@
                 alt="Ігор Дем'яненко"
                 class="team-cards-photo"
               />
-              <h3 class="team-cards-title">Ігор Дем'яненко</h3>
-              <p lang="en" class="team-cards-list">Product Designer</p>
+              <div>
+                <h3 class="team-cards-title">Ігор Дем'яненко</h3>
+                <p lang="en" class="team-cards-list">Product Designer</p>
+              </div>
             </li>
             <li class="team-cards">
               <img
@@ -135,8 +127,10 @@
                 alt="Ольга Рєпіна"
                 class="team-cards-photo"
               />
-              <h3 class="team-cards-title">Ольга Рєпіна</h3>
-              <p lang="en" class="team-cards-list">Frontend Developer</p>
+              <div>
+                <h3 class="team-cards-title">Ольга Рєпіна</h3>
+                <p lang="en" class="team-cards-list">Frontend Developer</p>
+              </div>
             </li>
             <li class="team-cards">
               <img
@@ -145,8 +139,10 @@
                 alt="Микола Тарасов"
                 class="team-cards-photo"
               />
-              <h3 class="team-cards-title">Микола Тарасов</h3>
-              <p lang="en" class="team-cards-list">Marketing</p>
+              <div>
+                <h3 class="team-cards-title">Микола Тарасов</h3>
+                <p lang="en" class="team-cards-list">Marketing</p>
+              </div>
             </li>
             <li class="team-cards">
               <img
@@ -155,8 +151,10 @@
                 alt="Михайло Єрмаков"
                 class="team-cards-photo"
               />
-              <h3 class="team-cards-title">Михайло Єрмаков</h3>
-              <p lang="en" class="team-cards-list">UI Designer</p>
+              <div>
+                <h3 class="team-cards-title">Михайло Єрмаков</h3>
+                <p lang="en" class="team-cards-list">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
